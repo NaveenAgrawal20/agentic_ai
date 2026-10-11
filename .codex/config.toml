@@ -1,0 +1,5 @@
+# Portable project defaults. Trust this checkout locally on each laptop before
+# relying on project configuration. Host and organization policies take precedence.
+# Authentication and machine-specific settings belong in local user configuration.
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
