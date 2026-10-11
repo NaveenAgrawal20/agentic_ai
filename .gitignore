@@ -203,6 +203,15 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Local secrets and agent runtime data (portable guidance remains tracked)
+.env.*
+!.env.example
+logs/
+artifacts/
+.local/
+.codex/*
+!.codex/config.toml
+
 # Ruff stuff:
 .ruff_cache/
 
